@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "058f75d72863406b678c1f63bab8e59a"
+build_time: [508615273, 452774000]
+inputs:
+  "/Users/2018isabellar/Desktop/izzy/development/Camera/Camera/ViewController2.swift": !dirty [508564053, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/Camera/Camera/ViewController.swift": !dirty [508563284, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/Camera/Camera/ViewController1.swift": !dirty [508562771, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/Camera/Camera/AppDelegate.swift": !dirty [508376439, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/Camera/Camera/ViewController3.swift": !dirty [508562788, 0]

@@ -1,0 +1,39 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C6Camera14ViewController"
+provides-member:
+- ["C6Camera14ViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "ViewController1"
+- "UIScrollView"
+- !private "ViewController2"
+- !private "ViewController3"
+- !private "CGSizeMake"
+- !private "*"
+- "ViewController"
+- "UIViewController"
+depends-member:
+- !private ["C6Camera14ViewController", "CGSizeMake"]
+- ["C6Camera14ViewController", "UIScrollView"]
+- !private ["C6Camera14ViewController", "ViewController1"]
+- !private ["C6Camera14ViewController", "ViewController2"]
+- !private ["C6Camera14ViewController", "ViewController3"]
+- !private ["C6Camera14ViewController", "addChildViewController"]
+- ["C6Camera14ViewController", "deinit"]
+- ["C6Camera14ViewController", "init"]
+- !private ["C6Camera14ViewController", "scrollView"]
+- ["C6Camera14ViewController", "viewDidLoad"]
+depends-nominal:
+- "C6Camera14ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+interface-hash: "a70390706f7585407a1461900165d06c"

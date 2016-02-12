@@ -1,0 +1,58 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController2"
+provides-nominal:
+- "C6Camera15ViewController2"
+provides-member:
+- ["C6Camera15ViewController2", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVCaptureSessionPreset1920x1080"
+- "AVCaptureSession"
+- !private "AVCaptureDeviceInput"
+- !private "AVLayerVideoGravityResizeAspect"
+- "AVCaptureStillImageOutput"
+- "UIViewController"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- !private "AVCaptureDevice"
+- "UIView"
+- !private "AVCaptureVideoOrientation"
+- !private "AVMediaTypeVideo"
+- "Bool"
+- "AVCaptureVideoPreviewLayer"
+- !private "!="
+- !private "AVVideoCodecJPEG"
+- "ViewController2"
+depends-member:
+- !private ["C6Camera15ViewController2", "AVCaptureDevice"]
+- !private ["C6Camera15ViewController2", "AVCaptureDeviceInput"]
+- ["C6Camera15ViewController2", "AVCaptureSession"]
+- !private ["C6Camera15ViewController2", "AVCaptureSessionPreset1920x1080"]
+- ["C6Camera15ViewController2", "AVCaptureStillImageOutput"]
+- !private ["C6Camera15ViewController2", "AVCaptureVideoOrientation"]
+- ["C6Camera15ViewController2", "AVCaptureVideoPreviewLayer"]
+- !private ["C6Camera15ViewController2", "AVLayerVideoGravityResizeAspect"]
+- !private ["C6Camera15ViewController2", "AVMediaTypeVideo"]
+- !private ["C6Camera15ViewController2", "AVVideoCodecJPEG"]
+- ["C6Camera15ViewController2", "Bool"]
+- ["C6Camera15ViewController2", "UIView"]
+- !private ["C6Camera15ViewController2", "cameraView"]
+- !private ["C6Camera15ViewController2", "captureSession"]
+- ["C6Camera15ViewController2", "deinit"]
+- ["C6Camera15ViewController2", "didReceiveMemoryWarning"]
+- ["C6Camera15ViewController2", "init"]
+- !private ["C6Camera15ViewController2", "previewLayer"]
+- !private ["C6Camera15ViewController2", "stillImageOutput"]
+- ["C6Camera15ViewController2", "viewDidLoad"]
+depends-nominal:
+- "C6Camera15ViewController2"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+interface-hash: "991125bfa998948f10cb5b588bf66f69"
